@@ -1,4 +1,4 @@
-module gitlab.com/image-base-calculation
+module github.com/simonmau/image-base-calculation
 
 go 1.18
 
