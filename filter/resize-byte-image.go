@@ -18,7 +18,7 @@ func ResizeByteImageRgb(input *[]byte, oldWidth, oldHeight, startX, startY, newW
 	iRef := *input
 	oRef := *output
 
-	if len(iRef) != int(oldHeight*oldHeight*3) || len(oRef) != int(newWidth*newHeight*3) {
+	if len(iRef) != int(oldWidth*oldHeight*3) || len(oRef) != int(newWidth*newHeight*3) {
 		return errors.New("input or output array do not have the right dimensions (ResizeByte)")
 	}
 
