@@ -1,10 +1,10 @@
 module github.com/simonmau/image-base-calculation
 
-go 1.19
+go 1.21
 
 require (
-	github.com/simonmau/spacial-base-calculation v1.3.0
-	github.com/stretchr/testify v1.8.0
+	github.com/simonmau/spacial-base-calculation v1.4.1
+	github.com/stretchr/testify v1.8.4
 	github.com/ungerik/go3d v0.0.0-20220309204530-55ced4bcb334
 )
 
